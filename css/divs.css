@@ -1,0 +1,152 @@
+.screen {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #000000;
+    position: fixed;
+    opacity: 0.3;
+    display: none;
+}
+
+.form_box {
+    width: 400px;
+    height: 430px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -215px 0 0 -200px;
+    z-index: 3;
+    opacity: 1;
+    display: none;
+}
+
+.header {
+    width: 100%;
+    height: 141px;
+    padding: 30px 0;
+    position: fixed;
+    transition: height .15s;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 6;
+}
+
+.header_contents {
+    width: 100%;
+    max-width: 1280px;
+    display: inline-block;
+}
+
+.header.smaller {
+    height: 63px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    background-color: #ffffff;
+    opacity: 0.95;
+    padding: 0;
+    display: none;
+}
+
+#header_logo {
+    float: left;
+    padding: 0 0 0 50px;
+}
+
+#header_logo_sm {
+    float: left;
+    padding: 8px 0 0 50px;
+}
+
+.hero_wrapper {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contact_button {
+    height: 55px;
+    border: 0px solid #e0e0e0;
+    background-color: #f5f5f5;
+    border-radius: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-family: Lato;
+    font-size: 16px;
+    color: #1a3c4c;
+    float: right;
+    vertical-align: middle;
+    padding: 0 40px 0 40px;
+    margin: 22px 60px 0 0;
+    transition: border .2s;
+    transition: background-color .2s;
+}
+
+.contact_button:hover {
+    cursor: pointer;
+    border: 0px solid #bdbdbd;
+    background-color: #e0e0e0;
+}
+
+.contact_button.smaller {
+    height: 35px;
+    line-height: 34px;
+    padding: 0 20px 0 20px;
+    margin: 14px 60px 0 0;
+}
+
+.contact_button2 {
+    height: 55px;
+    border: 1px solid #ffffff;
+    border-radius: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-family: Lato;
+    font-size: 16px;
+    color: #ffffff;
+    vertical-align: middle;
+    padding: 0 40px 0 40px;
+    transition: border .2s;
+    transition: background-color .2s, border .1s;
+    display: inline-block;
+}
+
+.contact_button2:hover {
+    cursor: pointer;
+    border: 1px solid #FFD80B;
+    background-color: #E1BF10;
+    color: #fafafa;
+}
+
+#close_btn {
+    font-family: Lato;
+    color: #bdbdbd;
+    font-size: 14px;
+    padding: 0;
+    margin: -10px 0 0 0;
+    position: absolute;
+    z-index: 4;
+    width: 350px;
+    bottom: 25px;
+}
+
+#close_btn:hover {
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #212121;
+    height: 50px;
+    color: #757575;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: left;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
